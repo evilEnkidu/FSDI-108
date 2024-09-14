@@ -1,0 +1,8 @@
+.catalog{
+    min-width: 600px;
+}
+.catalog h1{
+    color: darkcyan;
+    font-size: 28px;
+    font-weight: 300;
+}
