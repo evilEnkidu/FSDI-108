@@ -20,12 +20,12 @@ function QuantityPicker() {
         <button
           onClick={handleDecrease}
           disabled={quantity == 1}
-          className="btn btn-sm btn-dark"
+          className="btn btn-sm btn-light"
         >
           -
         </button>
         <label>{quantity}</label>
-        <button onClick={handleIncrease} className="btn btn-sm btn-dark">
+        <button onClick={handleIncrease} className="btn btn-sm btn-light">
           +
         </button>
       </div>

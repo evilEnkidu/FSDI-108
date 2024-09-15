@@ -4,7 +4,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          coolRockStore
         </a>
         <button
           className="navbar-toggler"
@@ -21,7 +21,17 @@ function Navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                Catalogue
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Services
               </a>
             </li>
           </ul>
@@ -29,10 +39,10 @@ function Navbar() {
             <input
               className="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Lookin' for something?"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+            <button className="btn btn-light" type="submit">
               Search
             </button>
           </form>
